@@ -39,7 +39,7 @@ class PeopleRequest(models.Model):
 
     class Meta:
         db_table = '坪山区-民生诉求数据_完整版'
-        ordering = ('id',)
+        ordering = ('-id',)
 
     def __str__(self):
         return str(self.create_time)
