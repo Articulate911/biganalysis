@@ -1,5 +1,6 @@
-依赖：
-1、安装node.js 地址：http://nodejs.cn/download/ node里包含了包管理工具npm
+需要做的事：
+1、安装node.js 地址
+http://nodejs.cn/download/ node里包含了包管理工具npm
 
 2、npm换成国内源
 # 查看版本
