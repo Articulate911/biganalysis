@@ -32,7 +32,7 @@ class PeopleRequest(models.Model):
     main_type_id = models.IntegerField(db_column='MAIN_TYPE_ID', null=True)  
 
     class Meta:
-        db_table = '坪山区-民生诉求数据_完整版'
+        db_table = 'people_request_database'
         ordering = ('-id',)
 
     def __str__(self):
