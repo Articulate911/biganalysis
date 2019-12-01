@@ -3,7 +3,6 @@ from django.db import models
 
 
 class PeopleRequest(models.Model):
-    id = models.IntegerField(db_column='id', primary_key=True)
     report_num = models.IntegerField(db_column='REPORT_NUM', null=True)
     event_property_name = models.TextField(db_column='EVENT_PROPERTY_NAME', null=True)  
     event_type_id = models.IntegerField(db_column='EVENT_TYPE_ID', null=True)
