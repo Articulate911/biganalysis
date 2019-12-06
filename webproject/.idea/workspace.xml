@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ba4c814f-e335-4e92-8145-1360c8755f2f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/components/Breadcrumb/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/components/Breadcrumb/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/layout/components/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/layout/components/Navbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/layout/components/Sidebar/Logo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/layout/components/Sidebar/Logo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/utils/get-page-title.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/utils/get-page-title.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/views/dashboard/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/views/dashboard/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/views/form/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/views/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/views/login/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/views/nested/menu1/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/views/nested/menu1/menu1-1/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/views/nested/menu1/menu1-2/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/views/nested/menu1/menu1-2/menu1-2-1/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/views/nested/menu1/menu1-2/menu1-2-2/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/views/nested/menu1/menu1-3/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/src/views/nested/menu2/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-admin-template/vue-admin-template/vue.config.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="webproject" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/vue-admin-template/vue-admin-template" />
+  </component>
+  <component name="ProjectId" id="1TSCVgqIaz13SqY4UnYLZWwXnyt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\guyong\Desktop\webproject" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="webproject" type="Python.DjangoServer" factoryName="Django server">
+      <module name="webproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="webproject.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba4c814f-e335-4e92-8145-1360c8755f2f" name="Default Changelist" comment="" />
+      <created>1573444134122</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573444134122</updated>
+      <workItem from="1573444135344" duration="17986000" />
+      <workItem from="1573560427875" duration="18687000" />
+      <workItem from="1574165612532" duration="10643000" />
+      <workItem from="1574232309646" duration="306000" />
+      <workItem from="1574232855701" duration="3893000" />
+      <workItem from="1574647325974" duration="12373000" />
+      <workItem from="1574693305200" duration="65000" />
+      <workItem from="1574693416063" duration="11279000" />
+      <workItem from="1574790277240" duration="341000" />
+      <workItem from="1574791036702" duration="180000" />
+      <workItem from="1574791520977" duration="22721000" />
+      <workItem from="1574836675399" duration="12815000" />
+      <workItem from="1575017528668" duration="57000" />
+      <workItem from="1575189368517" duration="418000" />
+      <workItem from="1575190303050" duration="26768000" />
+      <workItem from="1575471969944" duration="3661000" />
+      <workItem from="1575477443234" duration="2193000" />
+      <workItem from="1575515489335" duration="20055000" />
+      <workItem from="1575562475200" duration="12435000" />
+      <workItem from="1575646463164" duration="163000" />
+      <workItem from="1575646663308" duration="674000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
