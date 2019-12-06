@@ -800,8 +800,23 @@ def weijieban(request):
         date_to = datetime.datetime(2018, 10, 31)
         request_list = PeopleRequest.objects.filter(create_time__range=(date_from, date_to))
         weijieban = [i for i in request_list if i.intime_to_achieve_num == 0]
-        return JsonResponse({"status": 1, 
-                             "data": "str(weijieban)"})
+        category = []
+        rank=["12319", "12345", "固话投诉", "政府信箱", "@坪山", "美丽深圳"]
+        for item in rank:
+            category.append([i for i in weijieban if i.event_src_name == item])
+        data=[]
+        for y in category:
+            for x in y:
+                data.append({"create_time":datetime.datetime.strftime(x.create_time, "%Y-%m-%d %H:%M:%S")
+                            "street":x.street_name,
+                            "community":x.community_name, 
+                            "title":x.sub_type_name, 
+                            "source":x.event_src_name,
+                            "department":x.dispose_unit_name, 
+                            "property":x.event_property_name, 
+                            "status":1})
+        return JsonResponse({"status": 1,
+                             "data": str(data)})
 
 def yichang(request):
     communities = ["南布社区",
@@ -837,7 +852,7 @@ def yichang(request):
             request_list = PeopleRequest.objects.filter(create_time__range=(dayp, nextday))
             for community in communities:
                 if len([i for i in request_list if i.community_name == community]) >= 10:
-                    abnormals.append({"create_time": str(2018)+str(month)+str(day),
+                    abnormals.append({"create_time": str(datetime.datetime.strftime(dayp, "%Y%m%d")),
                                       "community_name": community})
             dayp = nextday
 
@@ -858,12 +873,12 @@ def yuce(request):
         for x in range(5):
             nextweek = dayp + datetime.timedelta(days=7)
             request_list = PeopleRequest.objects.filter(create_time__range=(dayp, nextweek))
-            tousu[x] = len([i for i in request_list if i.event_property_name == "投诉"])
-            ganxie[x] = len([i for i in request_list if i.event_property_name == "感谢"])
-            zixun[x] = len([i for i in request_list if i.event_property_name == "咨询"])
-            qiujue[x] = len([i for i in request_list if i.event_property_name == "求决"])
-            qita[x] = len([i for i in request_list if i.event_property_name == "其他"])
-            jianyi[x] = len([i for i in request_list if i.event_property_name == "建议"])
+            tousu.append(len([i for i in request_list if i.event_property_name == "投诉"]))
+            ganxie.append(len([i for i in request_list if i.event_property_name == "感谢"]))
+            zixun.append(len([i for i in request_list if i.event_property_name == "咨询"]))
+            qiujue.append(len([i for i in request_list if i.event_property_name == "求决"]))
+            qita.append(len([i for i in request_list if i.event_property_name == "其他"]))
+            jianyi.append(len([i for i in request_list if i.event_property_name == "建议"]))
             dayp = nextweek
         return JsonResponse({"status": 1, 
                              "data": str(pro(ganxie, zixun, jianyi, qiujue, tousu, qita))})
